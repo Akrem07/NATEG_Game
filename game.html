@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess the Movie Star - Hard Mode</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <div class="header">
+        <div class="logo-placeholder">
+          <img id="logo_nateg" src="logo_nateg.png" alt="logo_nateg" />
+        </div>
+        <h1>Guess the Movie Star</h1>
+        <div style="width: 100px"></div>
+      </div>
+      <div class="content">
+        <div class="image-container" id="imageContainer">
+          <img
+            alt="Hidden Movie Star"
+            class="hidden-image"
+            id="hiddenImage"
+          />
+          <div class="cover" id="cover"></div>
+        </div>
+        <div class="buttons-container">
+          <button id="uncoverTileBtn">Uncover One Tile</button>
+          <button id="uncoverAllBtn">Uncover All</button>
+          <button id="nextPhotoBtn">Next Photo</button>
+        </div>
+      </div>
+      <div class="footer">Uncover the tiles to reveal the movie star!</div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
